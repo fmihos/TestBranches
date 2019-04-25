@@ -11,8 +11,8 @@ namespace MyApp
             while (max == -1 || counter < max)
             {
                 counter++;
-                Console.WriteLine($"Counter: {counter}");
-                System.Threading.Tasks.Task.Delay(1000).Wait();
+                Console.WriteLine($"Counter (value): {counter}");
+                System.Threading.Tasks.Task.Delay(2000).Wait();
             }
         }
     }
