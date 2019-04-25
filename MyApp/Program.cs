@@ -12,7 +12,7 @@ namespace MyApp
             {
                 counter++;
                 Console.WriteLine($"Counter (value): {counter}");
-                System.Threading.Tasks.Task.Delay(2000).Wait();
+                System.Threading.Tasks.Task.Delay(3000).Wait();
             }
         }
     }
